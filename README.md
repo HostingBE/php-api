@@ -38,10 +38,10 @@ Below are some commands that you can execute with this API.
 
 **Search Bing for top 10 websites**
 
-`$response = $api->common(‘post’,'google/search',['q' => 'top 10 websites']);` 
+`$response = $api->common('post','bing/search',['q' => 'top 10 websites']);` 
 
-**Search Bing for top 10 websites**
+**Information about IP-address**
 
-`$response = $api->common(‘post’,'google/search',['q' => 'top 10 websites']);` 
+`$response = $api->common('get','ipinfo',['136.144.136.12']);` 
 
 
