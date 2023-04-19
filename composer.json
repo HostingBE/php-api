@@ -1,19 +1,15 @@
 {
-    "name": "HostingBE/php-api",
+    "name": "hostingbe/php-api",
     "description": "PHP API client to connect to HostingBE's API, including logging and retry functionality.",
+    "keywords": ["php api", "google search", "bing search","info ipaddress"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Constan van Suchtelen van de Haere",
             "email": "constan.vansuchtelenvandehaere@hostingbe.com"
         }
     ],
-    "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/HostingBE/php-api.git"
-    }
-],
-   
+
     "require": {
         "guzzlehttp/guzzle": "~6.0",
         "monolog/monolog": "^2.0"
@@ -31,6 +27,6 @@
             "Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
