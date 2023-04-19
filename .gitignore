@@ -1,0 +1,4 @@
+composer.lock
+vendor/
+logs/
+src/test-api-connection.php

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"App\\Tests\\HostingBETest::it_gets_tasks":4,"App\\Tests\\HostingBETest::it_creates_a_task":4,"App\\Tests\\HostingBETest::it_fails_to_get_tasks":4},"times":{"App\\Tests\\HostingBETest::it_gets_tasks":0.543,"App\\Tests\\HostingBETest::it_creates_a_task":0.104,"App\\Tests\\HostingBETest::it_fails_to_get_tasks":6.185}}
