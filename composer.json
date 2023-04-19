@@ -1,5 +1,5 @@
 {
-    "name": "hostingbe/api",
+    "name": "HostingBE/php-api",
     "description": "PHP API client to connect to HostingBE's API, including logging and retry functionality.",
     "authors": [
         {
@@ -7,6 +7,12 @@
             "email": "constan.vansuchtelenvandehaere@hostingbe.com"
         }
     ],
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/HostingBE/php-api.git"
+    }
+],
    
     "require": {
         "guzzlehttp/guzzle": "~6.0",

@@ -22,7 +22,7 @@ abstract class Api {
     protected $logger;
     protected $client;
     protected $useragent = 'Multiple options API HostingBE/1.0';
-    protected $baseUri = 'https://app.hostingbe.nl/api/v1/';
+    protected $baseUri = 'https://api.hostingbe.com/api/v1/';
     const MAX_RETRIES = 3;
 
 
