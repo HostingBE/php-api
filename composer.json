@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "hostingbe\\phpapi\\": "src/"
         }
     },
     "autoload-dev": {
@@ -28,5 +28,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+
 }

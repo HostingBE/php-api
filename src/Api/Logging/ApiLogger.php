@@ -5,7 +5,7 @@
  * @copyright 2023 HostingBE
  */
 
-namespace App\Api\Logging;
+namespace hostingbe\phpapi\Logging;
 
 use DateTime;
 use DateTimeZone;
