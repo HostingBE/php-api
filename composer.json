@@ -27,6 +27,5 @@
             "Tests\\": "tests/"
         }
     },
-    "minimum-stability": "main",
-
+    "minimum-stability": "stable"
 }
