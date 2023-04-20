@@ -12,7 +12,7 @@ First of all, requesting different data via REST API with the answer in JSON for
 
 
 **Using the API for the first time** 
-To use it you need an account with HostingBE, [Linkcreate it here](https://hostingbe.com/create-account).
+To use it you need an account with HostingBE, [create it here](https://hostingbe.com/create-account).
 
 When you are logged in, click on API settings and enter the IP address where the API requests come from (whitelist)
 After saving you will receive a username and password which you need when using API.
