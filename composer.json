@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hostingbe\\phpapi\\": "src/"
+            "HostingBE\\phpapi\\": "src/"
         }
     },
     "autoload-dev": {

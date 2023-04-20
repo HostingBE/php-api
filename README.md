@@ -20,8 +20,8 @@ After saving you will receive a username and password which you need when using 
 To connect to the API you need at least the following lines
 
 ```
-use App\Api\Logging\ApiLogger;
-use App\Api\HostingBE;
+use HostingBE\phpapi\Api\Logging\ApiLogger;
+use HostingBE\phpapi\Api\HostingBE;
 use GuzzleHttp\Exception\RequestException;
 $logger = (new ApiLogger)->create('test-api');
 $api = new HostingBE($logger);
@@ -44,4 +44,6 @@ Below are some commands that you can execute with this API.
 
 `$response = $api->common('get','ipinfo',['136.144.136.12']);` 
 
+**Documentation**
 
+Read more about the possibilities of this API on the [documentation(https://api.hostingbe.com/api/v1/docs/)] page of HostingBe

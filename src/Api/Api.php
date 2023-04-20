@@ -5,7 +5,7 @@
  * @copyright 2023 HostingBE
  */
 
-namespace hostingbe\phpapi;
+namespace HostingBE\phpapi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;

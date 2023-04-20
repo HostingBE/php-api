@@ -5,7 +5,7 @@
  * @copyright 2023 HostingBE
  */
 
-namespace hostingbe\phpapi;
+namespace HostingBE\phpapi\Api;
 
 class HostingBE extends Api {
 
