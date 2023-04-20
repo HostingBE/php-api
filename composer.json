@@ -3,6 +3,10 @@
     "description": "PHP API client to connect to HostingBE's API, including logging and retry functionality.",
     "keywords": ["php api", "google search", "bing search","info ipaddress"],
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/HostingBE/php-api/issues",
+        "source": "https://github.com/HostingBE/php-api"
+    },
     "authors": [
         {
             "name": "Constan van Suchtelen van de Haere",
@@ -27,5 +31,4 @@
             "Tests\\": "tests/"
         }
     },
-    "minimum-stability": "stable"
 }
