@@ -12,7 +12,7 @@ First of all, requesting different data via REST API with the answer in JSON for
 
 
 **Using the API for the first time** 
-To use it you need an account with HostingBE, [Linkcreate it here(https://hostingbe.com/create-account)].
+To use it you need an account with HostingBE, [Linkcreate it here](https://hostingbe.com/create-account).
 
 When you are logged in, click on API settings and enter the IP address where the API requests come from (whitelist)
 After saving you will receive a username and password which you need when using API.
@@ -44,6 +44,19 @@ Below are some commands that you can execute with this API.
 
 `$response = $api->common('get','ipinfo',['136.144.136.12']);` 
 
+**API commands available**
++ ping
++ Google search
++ Bing search
++ All countries (code, country_code, name)
++ WOZ Value history real estate
++ overview huislijn real estate
++ details real estate huislijn
++ overview makelaarsland real estate
++ details makelaarsland estate huislijn
++ overview VBO real estate
++ details VBO estate huislijn
+
 **Documentation**
 
-Read more about the possibilities of this API on the [documentation(https://api.hostingbe.com/api/v1/docs/)] page of HostingBe
+Read more about the possibilities of this API on the [documentation](https://api.hostingbe.com/api/v1/docs/) page of HostingBe
